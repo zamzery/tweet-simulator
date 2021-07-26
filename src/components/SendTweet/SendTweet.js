@@ -1,7 +1,7 @@
 import React from 'react';
 import {Fab} from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
-// import moment from 'moment';
+import moment from 'moment';
 import "./SendTweet.scss";
 
 export default function SendTweet() {
@@ -15,5 +15,5 @@ export default function SendTweet() {
                 <AddIcon />
             </Fab>
         </div>
-    )
+    );
 }
